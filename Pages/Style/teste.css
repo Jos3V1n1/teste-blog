@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+* {
+    background-color: white;
+    text-align: center;
+    line-height: 1.5;
+    font-family: "Open Sans Condensed", "Montserrat", sans-serif;
+}
+
+h1, h2 {
+  font-family: "Open Sans Condensed", "Montserrat", sans-serif;
+}
+
+h2 {
+    text-align: left;
+}
+
+p.image {
+  text-align: center;
+  text-indent: 5%;
+  font-family: "Open Sans Condensed", "Arial", sans-serif;
+  font-size: small;
+}
+
+p {
+    text-align: justify;
+    text-indent: 5%;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+div {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.main {
+    width: 700px;
+    height: 300px;
+}
+
+footer{
+  font-family: "Open Sans Condensed", "Montserrat", sans-serif;
+  background-color: black;
+  color: white;
+  text-align: justify;
+  padding: 20px;
+  display: flex;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+footer.fix{
+    font-family: "Open Sans Condensed", "Montserrat", sans-serif;
+    background-color: black;
+    color: white;
+    text-align: justify;
+    padding: 20px;
+    display: flex;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+ul.border {
+  width: 100%;
+  border: 1px solid #999;
+}
+
+ul { 
+    margin: 0px auto 0; 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    width: 600px;
+    text-align: center;
+  }
+  li { 
+    display: table-cell; 
+    position: relative; 
+    padding: 15px 0;
+  }
+  a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 50%;
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  @media screen and (max-height: 300px) {
+      ul {
+          margin-top: 40px;
+    }
+    }
