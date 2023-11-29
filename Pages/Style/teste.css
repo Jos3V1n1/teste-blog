@@ -34,6 +34,16 @@ div {
     margin-right: auto;
 }
 
+img.emote {
+  width: 500px;
+  height: 300px;
+}
+
+img.floco {
+  width: 400px;
+  height: 400px;
+}
+
 img.main {
     width: 700px;
     height: 300px;
