@@ -5,11 +5,13 @@ on:
     branches:
       - main
 
+permissions:
+  pages: write
+  contents: read
+  id-token: write
+
 jobs:
   publish:
-    permissions:
-      pages: write
-
     runs-on: : ubuntu-latest
     steps:
       - name: Checkout
